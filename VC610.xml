@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vmid.xsl"?>
+<machine_definition>
+	<machine_data name="VC610" version="1.8" units="metric">
+		<view_transform initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000"/>
+	</machine_data>
+	<geometry name="MH_2" geo="MH_2.stl" clrr="0.17647059" clrg="0.17647059" clrb="0.17647059" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="MH_3" geo="MH_3.stl" clrr="0.17647059" clrg="0.17647059" clrb="0.17647059" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="MH_Slides" geo="MH_Slides.stl" clrr="0.96078432" clrg="0.96078432" clrb="0.96078432" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="MH_Slides2" geo="MH_Slides2.stl" clrr="0.96078432" clrg="0.96078432" clrb="0.96078432" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="ToolMagacinee" geo="ToolMagacinee.stl" clrr="0.86274511" clrg="0.86274511" clrb="0.86274511" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<axis id="Y" type="translation" x="0.00000000" y="-1.00000000" z="0.00000000" minvalue="-305.000000" maxvalue="305.000000" valuetype="cont" initial_value="0.000000">
+		<axis id="X" type="translation" x="-1.00000000" y="0.00000000" z="0.00000000" minvalue="-525.000000" maxvalue="525.000000" valuetype="cont" initial_value="0.000000">
+			<geometry name="Table_fixture" geo="table_fixture.stl" clrr="0.11764706" clrg="0.11764706" clrb="0.11764706" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+			<geometry name="X-Axis_Parts" geo="X-Axis_Parts.stl" clrr="1.00000000" clrg="1.00000000" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+			<geometry name="X-Axis_Table" geo="X-Axis_Table.stl" clrr="0.86274511" clrg="0.86274511" clrb="0.86274511" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+			<transform id="fixture_transform1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+				<transform id="fixture_adaptor1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" objtype="mountadapter"/>
+			</transform>
+			<transform id="workpiece_transform1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+				<transform id="wcs1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000"/>
+				<transform id="workpiece_adaptor1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" objtype="mountadapter"/>
+			</transform>
+		</axis>
+		<geometry name="Y-Axis_Part" geo="Y-Axis_Part.stl" clrr="0.82745099" clrg="0.82745099" clrb="0.82745099" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+		<geometry name="Y-Axis_Parts" geo="Y-Axis_Parts.stl" clrr="0.29411766" clrg="0.29411766" clrb="0.29411766" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+		<geometry name="Y-axis-SlidesX" geo="Y-axis-SlidesX.stl" clrr="0.96078432" clrg="0.96078432" clrb="0.96078432" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	</axis>
+	<axis id="Z" type="translation" x="0.00000000" y="0.00000000" z="1.00000000" minvalue="-530.000000" maxvalue="0.000000" valuetype="cont" initial_value="0.000000">
+		<geometry name="Z-Axis-Parts" geo="Z-Axis-Parts.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+		<geometry name="Z-Axis_Spindle" geo="Z-Axis_Spindle.stl" clrr="0.96078432" clrg="0.96078432" clrb="0.96078432" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+		<geometry name="iMachining-TableBG" geo="iMachining-TableBG.STL" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+		<geometry name="iMachining_red" geo="iMachining_red.stl" clrr="1.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+		<transform id="turret_transform1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,630.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+			<transform id="station_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+				<transform id="adaptor_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+					<transform id="holder_transform" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000">
+						<geometry name="tool" geo="tool.stl" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="tool" cuttr="1.00000000" cuttg="1.00000000" cuttb="0.00000000" noncuttr="0.50196081" noncuttg="1.00000000" noncuttb="0.00000000" arborr="0.00000000" arborg="1.00000000" arborb="0.00000000" holderr="0.00000000" holderg="0.50196081" holderb="0.15294118"/>
+					</transform>
+					<transform id="tool_adaptor1" initialvalue="1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000,0.00000000,0.00000000,0.00000000,0.00000000,1.00000000" objtype="mountadapter"/>
+				</transform>
+			</transform>
+		</transform>
+	</axis>
+	<geometry name="mh_1" geo="MH_1.stl" clrr="0.96078432" clrg="0.96078432" clrb="0.96078432" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_MH_4" geo="MH_4.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_SCblack-1-1" geo="SCblack-1-1.stl" clrr="0.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_SCgray-1-1" geo="SCgray-1-1.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_SCred-1-1" geo="SCred-1-1.stl" clrr="1.00000000" clrg="0.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_SCwhite-1-1" geo="SCwhite-1-1.stl" clrr="0.96078432" clrg="0.96078432" clrb="0.96078432" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_SCyellow1-1-1" geo="SCyellow1-1-1.stl" clrr="1.00000000" clrg="1.00000000" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_Tongtai - Left" geo="Tongtai - Left.stl" clrr="0.50196081" clrg="0.50196081" clrb="0.50196081" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_Tongtai - Logo" geo="Tongtai - Logo.stl" clrr="0.17647059" clrg="0.17647059" clrb="0.17647059" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<geometry name="mh_Tongtai - Right" geo="Tongtai - Right.stl" clrr="0.11764706" clrg="0.56470591" clrb="1.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="geometry"/>
+	<magazine>
+		<head name="TH_FX1">
+			<geometry name="TH_adaptor1" geo="fixture.stl" clrr="0.11764706" clrg="0.11764706" clrb="0.11764706" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="fixture"/>
+		</head>
+		<head name="Target_Stock1">
+			<geometry name="workpiece1" geo="workpiece1.stl" clrr="0.65098041" clrg="0.79215688" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="workpiece"/>
+			<geometry name="stock1" geo="stock1.stl" clrr="0.50196081" clrg="0.32156864" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock"/>
+			<geometry name="toolpath" geo="toolpath.asc" clrr="0.80000001" clrg="0.80000001" clrb="0.80000001" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="toolpath"/>
+			<geometry name="initialstock1" geo="stock1.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.8" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock"/>
+		</head>
+		<head name="Target_Stock2">
+			<geometry name="workpiece2" geo="workpiece2.stl" clrr="0.65098041" clrg="0.79215688" clrb="0.94117647" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="tablereflection.bmp" objtype="workpiece"/>
+			<geometry name="stock2" geo="stock2.stl" clrr="0.50196081" clrg="0.32156864" clrb="0.00000000" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="stock"/>
+			<geometry name="toolpath2" geo="toolpath2.asc" clrr="0.80000001" clrg="0.80000001" clrb="0.80000001" alpha="0.0" reflectivity="0.0" reflectivityBitmapFileName="" objtype="toolpath"/>
+			<geometry name="initialstock2" geo="stock2.stl" clrr="0.43137255" clrg="0.65882355" clrb="1.00000000" alpha="0.8" reflectivity="0.0" reflectivityBitmapFileName="" objtype="initialstock"/>
+		</head>
+		<head name="fxt1">
+			<geometry name="fixture1" geo="fixture.stl" clrr="0.11764706" clrg="0.11764706" clrb="0.11764706" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="fixture"/>
+		</head>
+		<head name="fxt2">
+			<geometry name="fixture2" geo="fixture.stl" clrr="0.11764706" clrg="0.11764706" clrb="0.11764706" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="fixture"/>
+		</head>
+		<head name="fxt3">
+			<geometry name="fixture3" geo="fixture.stl" clrr="0.11764706" clrg="0.11764706" clrb="0.11764706" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="fixture"/>
+		</head>
+		<head name="fxt4">
+			<geometry name="fixture4" geo="fixture.stl" clrr="0.11764706" clrg="0.11764706" clrb="0.11764706" alpha="0.0" reflectivity="0.1" reflectivityBitmapFileName="tablereflection.bmp" objtype="fixture"/>
+		</head>
+	</magazine>
+</machine_definition>
