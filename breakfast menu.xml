@@ -1,0 +1,23 @@
+<?xml ?>
+<breakfast menu>
+<food>
+<name>strawberry waffles</name>
+<price>7.9</prices>
+
+<name>honey waffles</name>
+<price>7.9</prices>
+
+<name>origin waffles</name>
+<price>7.2</prices>
+
+</food>
+
+<drink>
+<name>water</name>
+<price>1.0</prices>
+
+<name>orange juice</name>
+<price>2.2</prices>
+
+</drink>
+</breakfast menu>
